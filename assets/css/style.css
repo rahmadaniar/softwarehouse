@@ -10,7 +10,7 @@ body {
 #hero {
     background-size: cover;
     background-position: center;
-    color: #302d2d;
+    color: rgb(87, 82, 82);
     text-align: center;
 }
 
@@ -26,9 +26,9 @@ body {
 }
 
 #hero .btn-primary {
-    background-color: #da8383;
+    background-color: #c96b6b;
     border-color: #d19090;
-    padding: 10px 20px;
+    padding:  10px;
     font-size: 1rem;
 }
 
@@ -55,15 +55,15 @@ body {
 
 /* untuk about */
 #about {
-    background-color: #ccc0c0e3 !important;
+    background-color: #e4c3c3e3 !important;
     padding: 60px 20px;
-    color: #141313;
+    color: #5f5959;
 }
 
 #about h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #4A4A4A;
+    color: #141313;
     font-weight: 600;
     text-align: center;
 }
@@ -77,13 +77,13 @@ body {
 .about-img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; 
+    border-radius: 8px; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 /* untuk visimisi */
 #visi-misi {
-    background-color: #ccc0c0e3 !important;
+    background-color: #e4c3c3e3 !important;
     padding: 60px 20px;
     border-radius: 8px;
 }
@@ -91,7 +91,7 @@ body {
 #visi-misi h1 {
     font-size: 3rem;
     margin-bottom: 40px;
-    color: #4A4A4A;
+    color:  #141313;
     font-weight: 800;
     text-align: center;
 }
@@ -127,7 +127,7 @@ body {
 
 /* untuk service */
 #services {
-    background-color: #ccc0c0e3;
+    background-color: #e4c3c3e3;
     padding: 60px 20px;
 }
 
@@ -171,7 +171,7 @@ body {
 
 /* untuk team */
 #team {
-    background-color: #ccc0c0e3;
+    background-color: #e4c3c3e3;
     padding: 60px 20px;
 }
 
@@ -192,8 +192,8 @@ body {
 }
 
 #team img {
-    width: 300px;
-    height: 200px;
+    width: auto;
+    height: auto;
     object-fit: cover; 
     border-radius: 50%; 
     margin-bottom: 15px; 
@@ -215,7 +215,7 @@ body {
 
 /* untuk portofolio */
 #portfolio {
-    background-color: #ccc0c0e3;
+    background-color: #e4c3c3e3;
 
     padding: 60px 20px;
 }
@@ -362,7 +362,7 @@ body {
 
 /* untuk contact */
 #contact {
-    background-color: #f9f9f9;
+    background-color: #e4c3c3e3 !important;
     padding: 60px 20px;
 }
 
@@ -370,18 +370,21 @@ body {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 #contact h4 {
-    font-size: 1.5rem;
-    color: #555;
+    font-size: 1.75rem;
+    color: #333;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .contact-info {
-    font-size: 1rem;
-    color: #666;
+    font-size: 1.1rem;
+    color: #555;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 #contact form {
@@ -511,3 +514,5 @@ body {
         font-size: 0.9rem;
     }
 }
+
+
